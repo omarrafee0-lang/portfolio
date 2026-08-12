@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Omar Ahmed Rafee — Full-Stack Developer, AI Engineer and Computer Engineering Graduate. Available for freelance projects and collaborations." />
-  <meta name="author" content="Omar Ahmed Rafee" />
-  <link rel="canonical" href="https://omarrafee0-lang.github.io/portfolio/" />
+  <meta name="description" content="Omar Ahmed Rafee — Full-Stack Developer, AI Engineer & Computer Engineering Graduate" />
   <title>Omar Rafee | Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,38 +13,116 @@
 <body>
   <div class="cursor-glow" aria-hidden="true"></div>
   <div class="grain" aria-hidden="true"></div>
+
   <nav class="nav" id="nav">
     <a href="#hero" class="nav-logo">OR<span class="accent">.</span></a>
     <ul class="nav-links">
-      <li><a href="#about" data-nav>About</a></li><li><a href="#skills" data-nav>Skills</a></li><li><a href="#experience" data-nav>Experience</a></li><li><a href="#projects" data-nav>Projects</a></li><li><a href="#contact" data-nav>Contact</a></li>
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
     </ul>
-    <button class="nav-ai-btn" id="open-ai" aria-label="Open AI Assistant"><span class="ai-pulse"></span>AI Chat</button>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <button class="nav-ai-btn" id="open-ai" aria-label="Open AI Assistant">
+      <span class="ai-pulse"></span>
+      AI Chat
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
+
   <main>
+    <!-- Hero -->
     <section class="hero" id="hero">
-      <div class="hero-bg"><canvas id="hero-canvas"></canvas></div>
+      <div class="hero-bg">
+        <canvas id="hero-canvas"></canvas>
+      </div>
       <div class="container hero-content">
-        <p class="hero-eyebrow"><span class="status-dot"></span>Available for freelance projects & collaborations · Presales Engineer @ Smart Vision</p>
-        <h1 class="hero-title"><span class="line"><span class="word" data-split>Omar</span></span><span class="line"><span class="word" data-split>Ahmed Rafee</span></span></h1>
+        <p class="hero-eyebrow">
+          <span class="status-dot"></span>
+          Available for opportunities · Presales Engineer @ Smart Vision
+        </p>
+        <h1 class="hero-title">
+          <span class="line"><span class="word" data-split>Omar</span></span>
+          <span class="line"><span class="word" data-split>Ahmed Rafee</span></span>
+        </h1>
         <p class="hero-subtitle" id="typewriter"></p>
-        <div class="hero-cta"><a href="#projects" class="btn btn-primary">View Projects</a><a href="#contact" class="btn btn-ghost">Freelance With Me</a><a href="OmarRafeeResume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Download CV</a></div>
-        <div class="hero-stats"><div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">Websites Built</span></div><div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">Projects</span></div><div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Languages</span></div></div>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="OmarRafeeResume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Download CV</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">Websites Built</span></div>
+          <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">Projects</span></div>
+          <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Languages</span></div>
+        </div>
       </div>
       <div class="scroll-indicator"><span>Scroll</span><div class="scroll-line"></div></div>
     </section>
 
-    <section class="section about" id="about"><div class="container"><div class="section-header"><span class="section-tag">01 — About</span><h2 class="section-title">Who I Am</h2></div><div class="about-grid"><div class="about-text reveal"><p class="lead" id="about-summary"></p><div class="about-info"><div class="info-item"><span class="info-label">Location</span><span class="info-value" id="about-location"></span></div><div class="info-item"><span class="info-label">Education</span><span class="info-value" id="about-education"></span></div><div class="info-item"><span class="info-label">Focus</span><span class="info-value">Full-Stack · AI · Backend</span></div></div></div><div class="about-cards reveal"><div class="about-card" data-tilt><div class="card-icon">⚡</div><h3>Full-Stack</h3><p>React, PHP, Node.js — from UI to API</p></div><div class="about-card" data-tilt><div class="card-icon">🤖</div><h3>AI Automation</h3><p>Workflows, content systems & smart pipelines</p></div><div class="about-card" data-tilt><div class="card-icon">🔧</div><h3>Low to High Level</h3><p>FPGA/VHDL to cloud architecture</p></div></div></div></div></section>
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header"><span class="section-tag">01 — About</span><h2 class="section-title">Who I Am</h2></div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="lead" id="about-summary"></p>
+            <div class="about-info">
+              <div class="info-item"><span class="info-label">Location</span><span class="info-value" id="about-location"></span></div>
+              <div class="info-item"><span class="info-label">Education</span><span class="info-value" id="about-education"></span></div>
+              <div class="info-item"><span class="info-label">Focus</span><span class="info-value">Full-Stack · AI · Backend</span></div>
+            </div>
+          </div>
+          <div class="about-cards reveal">
+            <div class="about-card" data-tilt><div class="card-icon">⚡</div><h3>Full-Stack</h3><p>React, PHP, Node.js — from UI to API</p></div>
+            <div class="about-card" data-tilt><div class="card-icon">🤖</div><h3>AI Automation</h3><p>Workflows, content systems & smart pipelines</p></div>
+            <div class="about-card" data-tilt><div class="card-icon">🔧</div><h3>Low to High Level</h3><p>FPGA/VHDL to cloud architecture</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Skills -->
     <section class="section skills" id="skills"><div class="container"><div class="section-header"><span class="section-tag">02 — Skills</span><h2 class="section-title">Technical Arsenal</h2></div><div class="skills-grid" id="skills-grid"></div><div class="languages-block reveal"><h3>Languages</h3><div class="lang-bars" id="lang-bars"></div></div></div></section>
+
+    <!-- Experience -->
     <section class="section experience" id="experience"><div class="container"><div class="section-header"><span class="section-tag">03 — Experience</span><h2 class="section-title">Professional Journey</h2></div><div class="timeline" id="timeline"></div></div></section>
+
+    <!-- Projects -->
     <section class="section projects" id="projects"><div class="container"><div class="section-header"><span class="section-tag">04 — Projects</span><h2 class="section-title">Selected Work</h2></div><div class="projects-grid" id="projects-grid"></div></div></section>
+
+    <!-- Education & Courses -->
     <section class="section education" id="education"><div class="container"><div class="section-header"><span class="section-tag">05 — Education</span><h2 class="section-title">Academic Background</h2></div><div class="edu-grid"><div class="edu-main reveal" id="edu-main"></div><div class="courses-list reveal" id="courses-list"></div></div></div></section>
 
-    <section class="section contact" id="contact"><div class="container"><div class="section-header center"><span class="section-tag">06 — Contact</span><h2 class="section-title">Let's Build Something</h2><p class="section-desc">Have a website, app, automation idea or custom software project? Contact me for freelance work and collaborations.</p></div><div class="contact-grid reveal"><a href="#" class="contact-card" id="contact-email"><span class="contact-icon">✉</span><span class="contact-label">Email</span><span class="contact-value"></span></a><a href="#" class="contact-card" id="contact-phone"><span class="contact-icon">📱</span><span class="contact-label">Phone</span><span class="contact-value"></span></a><a href="#" class="contact-card" id="contact-linkedin" target="_blank" rel="noopener"><span class="contact-icon">🔗</span><span class="contact-label">LinkedIn</span><span class="contact-value">Connect with me</span></a></div><div class="freelance-cta reveal"><strong>Need something built?</strong><span>Send me your idea, requirements and timeline.</span><a href="mailto:omarrafee@gmail.com?subject=Freelance%20Project%20Inquiry" class="btn btn-primary">Contact Me for Freelance</a></div><div class="ai-cta reveal"><p>Curious about my background? Ask my AI assistant anything.</p><button class="btn btn-primary" id="open-ai-2">Talk to AI Assistant</button></div></div></section>
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header center"><span class="section-tag">06 — Contact</span><h2 class="section-title">Let's Build Something</h2><p class="section-desc">Open to full-time roles, freelance projects, and collaborations.</p></div>
+        <div class="contact-grid reveal">
+          <a href="#" class="contact-card" id="contact-email"><span class="contact-icon">✉</span><span class="contact-label">Email</span><span class="contact-value"></span></a>
+          <a href="#" class="contact-card" id="contact-phone"><span class="contact-icon">📱</span><span class="contact-label">Phone</span><span class="contact-value"></span></a>
+          <a href="#" class="contact-card" id="contact-linkedin" target="_blank" rel="noopener"><span class="contact-icon">🔗</span><span class="contact-label">LinkedIn</span><span class="contact-value">Connect with me</span></a>
+        </div>
+        <div class="ai-cta reveal"><p>Curious about my background? Ask my AI assistant anything.</p><button class="btn btn-primary" id="open-ai-2">Talk to AI Assistant</button></div>
+      </div>
+    </section>
   </main>
-  <footer class="footer"><div class="container"><p>© 2026 Omar Ahmed Rafee · Built with GSAP & AI · Freelance projects welcome</p></div></footer>
 
-  <div class="ai-panel" id="ai-panel" aria-hidden="true"><div class="ai-panel-header"><div class="ai-panel-title"><span class="ai-avatar">AI</span><div><strong>Portfolio Assistant</strong><small>Powered by your CV data</small></div></div><button class="ai-close" id="close-ai" aria-label="Close chat">×</button></div><div class="ai-messages" id="ai-messages"></div><div class="ai-suggestions" id="ai-suggestions"></div><form class="ai-input-form" id="ai-form"><input type="text" id="ai-input" placeholder="Ask about skills, experience, projects..." autocomplete="off" /><button type="submit" aria-label="Send message">➤</button></form><div class="ai-settings"><details><summary>Optional: Connect OpenAI API</summary><input type="password" id="openai-key" placeholder="sk-..." /><small>Key stays in your browser only (localStorage)</small></details></div></div><div class="ai-overlay" id="ai-overlay"></div>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script><script src="js/data.js"></script><script src="js/ai-assistant.js"></script><script src="js/main.js"></script>
-</body></html>
+  <footer class="footer"><div class="container"><p>© 2026 Omar Ahmed Rafee · Built with GSAP & AI</p></div></footer>
+
+  <!-- AI Chat Panel -->
+  <div class="ai-panel" id="ai-panel" aria-hidden="true">
+    <div class="ai-panel-header"><div class="ai-panel-title"><span class="ai-avatar">AI</span><div><strong>Portfolio Assistant</strong><small>Powered by your CV data</small></div></div><button class="ai-close" id="close-ai" aria-label="Close chat">×</button></div>
+    <div class="ai-messages" id="ai-messages"></div><div class="ai-suggestions" id="ai-suggestions"></div>
+    <form class="ai-input-form" id="ai-form"><input type="text" id="ai-input" placeholder="Ask about skills, experience, projects..." autocomplete="off" /><button type="submit" aria-label="Send message"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></button></form>
+    <div class="ai-settings"><details><summary>Optional: Connect OpenAI API</summary><input type="password" id="openai-key" placeholder="sk-..." /><small>Key stays in your browser only (localStorage)</small></details></div>
+  </div>
+  <div class="ai-overlay" id="ai-overlay"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script src="js/data.js"></script><script src="js/ai-assistant.js"></script><script src="js/main.js"></script>
+</body>
+</html>
