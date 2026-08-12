@@ -18,7 +18,7 @@ const skills = [
   },
   {
     category: "Web & Mobile",
-    items: ["React.js", "React Native", "Flutter", "HTML5", "CSS3"],
+    items: ["React.js", "React Native", "Flutter", "HTML5", "CSS3", "GSAP"],
   },
   {
     category: "Backend & Databases",
@@ -116,42 +116,12 @@ const courses = [
 ];
 
 const projects = [
-  {
-    title: "Marvel Game",
-    tech: ["Java", "GUI"],
-    desc: "Board-style fighting game with engaging mechanics and user-friendly interface.",
-    color: "#e62429",
-  },
-  {
-    title: "Online Bank System",
-    tech: ["HTML", "CSS", "JavaScript"],
-    desc: "Secure banking platform with account management, transactions, and authentication.",
-    color: "#00d4aa",
-  },
-  {
-    title: "Smart Car",
-    tech: ["VHDL", "FPGA"],
-    desc: "Self-navigating car with sensor-based algorithms for autonomous movement and obstacle avoidance.",
-    color: "#6366f1",
-  },
-  {
-    title: "Unity Games",
-    tech: ["Unity", "C++"],
-    desc: "Two complete games built with Unity engine and C++ scripting.",
-    color: "#f59e0b",
-  },
-  {
-    title: "Hospital Management System",
-    tech: ["SQL", "Data Analysis"],
-    desc: "Robust SQL database managing complex patient records and medical data.",
-    color: "#ec4899",
-  },
-  {
-    title: "Football Management System",
-    tech: ["SQL", "Analytics"],
-    desc: "Stadium operations and match data analysis for performance metrics.",
-    color: "#22c55e",
-  },
+  { title: "Marvel Game", tech: ["Java", "GUI"], desc: "Board-style fighting game with engaging mechanics and user-friendly interface.", color: "#e62429" },
+  { title: "Online Bank System", tech: ["HTML", "CSS", "JavaScript"], desc: "Secure banking platform with account management, transactions, and authentication.", color: "#00d4aa" },
+  { title: "Smart Car", tech: ["VHDL", "FPGA"], desc: "Self-navigating car with sensor-based algorithms for autonomous movement and obstacle avoidance.", color: "#6366f1" },
+  { title: "Unity Games", tech: ["Unity", "C++"], desc: "Two complete games built with Unity engine and C++ scripting.", color: "#f59e0b" },
+  { title: "Hospital Management System", tech: ["SQL", "Data Analysis"], desc: "Robust SQL database managing complex patient records and medical data.", color: "#ec4899" },
+  { title: "Football Management System", tech: ["SQL", "Analytics"], desc: "Stadium operations and match data analysis for performance metrics.", color: "#22c55e" },
 ];
 
 const languages = [
