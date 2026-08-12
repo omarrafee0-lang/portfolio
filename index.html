@@ -3,36 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Omar Rafee — Software Engineer and Full-Stack Developer building modern websites, web apps, AI tools and automation for freelance projects." />
+  <meta name="description" content="Omar Ahmed Rafee — Full-Stack Developer, AI Engineer and Computer Engineering Graduate. Available for freelance projects and collaborations." />
   <meta name="author" content="Omar Ahmed Rafee" />
-  <meta property="og:title" content="Omar Rafee | Full-Stack Developer" />
-  <meta property="og:description" content="Modern websites, web apps, AI tools and automation for freelance projects." />
-  <meta property="og:type" content="website" />
-  <title>Omar Rafee | Full-Stack Developer & AI</title>
+  <link rel="canonical" href="https://omarrafee0-lang.github.io/portfolio/" />
+  <title>Omar Rafee | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="cursor-glow"></div>
-  <header class="site-header"><nav><a class="brand" href="#top">Omar<span>.</span></a><div class="nav-links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#ai">AI Bot</a><a href="#contact">Contact</a></div><a class="nav-cta" href="#contact">Freelance</a></nav></header>
-  <main id="top">
-    <section class="hero"><div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div><div class="container hero-grid"><div class="hero-copy-wrap"><p class="eyebrow reveal">SOFTWARE ENGINEER · FULL-STACK · AI</p><h1 class="reveal">I build <span class="gradient-text" id="rotating-word">websites</span> that feel alive.</h1><p class="hero-copy reveal">I'm Omar Rafee. I build modern websites, web apps, backend systems and AI-powered tools. I like simple ideas, clean design and useful products.</p><div class="hero-actions reveal"><a class="btn primary magnetic" href="#contact">Let's build something</a><a class="btn secondary" href="#projects">See my work ↓</a></div><div class="hero-status reveal"><span class="pulse-dot"></span> Available for freelance projects & collaborations</div></div><div class="hero-card reveal"><div class="code-window"><div class="window-top"><span></span><span></span><span></span><small>omar.ai</small></div><div class="code-line"><b>const</b> idea = <em>"your business"</em>;</div><div class="code-line"><b>const</b> solution = <em>build(idea)</em>;</div><div class="code-line"><b>return</b> <strong>solution</strong>;</div><div class="terminal-cursor">▊</div></div><div class="floating-chip chip-ai">✦ AI Assistant</div><div class="floating-chip chip-gsap">↗ GSAP Motion</div></div></div></section>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">OR<span class="accent">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about" data-nav>About</a></li><li><a href="#skills" data-nav>Skills</a></li><li><a href="#experience" data-nav>Experience</a></li><li><a href="#projects" data-nav>Projects</a></li><li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+    <button class="nav-ai-btn" id="open-ai" aria-label="Open AI Assistant"><span class="ai-pulse"></span>AI Chat</button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg"><canvas id="hero-canvas"></canvas></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow"><span class="status-dot"></span>Available for freelance projects & collaborations · Presales Engineer @ Smart Vision</p>
+        <h1 class="hero-title"><span class="line"><span class="word" data-split>Omar</span></span><span class="line"><span class="word" data-split>Ahmed Rafee</span></span></h1>
+        <p class="hero-subtitle" id="typewriter"></p>
+        <div class="hero-cta"><a href="#projects" class="btn btn-primary">View Projects</a><a href="#contact" class="btn btn-ghost">Freelance With Me</a><a href="OmarRafeeResume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Download CV</a></div>
+        <div class="hero-stats"><div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">Websites Built</span></div><div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">Projects</span></div><div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Languages</span></div></div>
+      </div>
+      <div class="scroll-indicator"><span>Scroll</span><div class="scroll-line"></div></div>
+    </section>
 
-    <section id="about" class="section"><div class="container two-col"><div class="sticky-title"><p class="eyebrow">ABOUT ME</p><h2>Simple code.<br><span class="gradient-text">Interesting ideas.</span></h2></div><div><p class="big-text">I am a Software Engineer and Full-Stack Developer. I enjoy turning an idea into something people can actually use.</p><p>I work with frontend, backend, databases, APIs, AI and automation. I focus on making websites easy to understand, fast to use and fun to interact with.</p><div class="mini-stats"><div><strong>Full-Stack</strong><span>Web & Apps</span></div><div><strong>AI</strong><span>Tools & Automation</span></div><div><strong>React</strong><span>Modern UI</span></div></div></div></div></section>
+    <section class="section about" id="about"><div class="container"><div class="section-header"><span class="section-tag">01 — About</span><h2 class="section-title">Who I Am</h2></div><div class="about-grid"><div class="about-text reveal"><p class="lead" id="about-summary"></p><div class="about-info"><div class="info-item"><span class="info-label">Location</span><span class="info-value" id="about-location"></span></div><div class="info-item"><span class="info-label">Education</span><span class="info-value" id="about-education"></span></div><div class="info-item"><span class="info-label">Focus</span><span class="info-value">Full-Stack · AI · Backend</span></div></div></div><div class="about-cards reveal"><div class="about-card" data-tilt><div class="card-icon">⚡</div><h3>Full-Stack</h3><p>React, PHP, Node.js — from UI to API</p></div><div class="about-card" data-tilt><div class="card-icon">🤖</div><h3>AI Automation</h3><p>Workflows, content systems & smart pipelines</p></div><div class="about-card" data-tilt><div class="card-icon">🔧</div><h3>Low to High Level</h3><p>FPGA/VHDL to cloud architecture</p></div></div></div></div></section>
 
-    <section id="services" class="section alt"><div class="container"><p class="eyebrow">WHAT I CAN DO</p><h2>Build it. Improve it. Automate it.</h2><div class="cards"><article class="service-card tilt-card"><div class="service-icon">◈</div><h3>Websites</h3><p>Professional, responsive websites for businesses, brands and personal projects.</p></article><article class="service-card tilt-card"><div class="service-icon">⌘</div><h3>Web Apps</h3><p>Interactive React and JavaScript apps with custom backend logic and databases.</p></article><article class="service-card tilt-card"><div class="service-icon">✦</div><h3>AI Tools</h3><p>AI assistants, smart features and useful automation that make products more powerful.</p></article><article class="service-card tilt-card"><div class="service-icon">⚙</div><h3>Backend & APIs</h3><p>PHP, Node.js, APIs and database systems built around real business needs.</p></article></div></div></section>
+    <section class="section skills" id="skills"><div class="container"><div class="section-header"><span class="section-tag">02 — Skills</span><h2 class="section-title">Technical Arsenal</h2></div><div class="skills-grid" id="skills-grid"></div><div class="languages-block reveal"><h3>Languages</h3><div class="lang-bars" id="lang-bars"></div></div></div></section>
+    <section class="section experience" id="experience"><div class="container"><div class="section-header"><span class="section-tag">03 — Experience</span><h2 class="section-title">Professional Journey</h2></div><div class="timeline" id="timeline"></div></div></section>
+    <section class="section projects" id="projects"><div class="container"><div class="section-header"><span class="section-tag">04 — Projects</span><h2 class="section-title">Selected Work</h2></div><div class="projects-grid" id="projects-grid"></div></div></section>
+    <section class="section education" id="education"><div class="container"><div class="section-header"><span class="section-tag">05 — Education</span><h2 class="section-title">Academic Background</h2></div><div class="edu-grid"><div class="edu-main reveal" id="edu-main"></div><div class="courses-list reveal" id="courses-list"></div></div></div></section>
 
-    <section id="projects" class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Things I've built.</h2></div><p>Move your mouse over a project. Small details matter.</p></div><div id="projects-grid" class="project-grid"></div></div></section>
-
-    <section id="ai" class="section ai-section"><div class="container"><div class="ai-shell"><div class="ai-copy"><p class="eyebrow">TRY MY AI ASSISTANT</p><h2>Ask me about <span class="gradient-text">Omar.</span></h2><p>Want to know what I build, what technologies I use or whether I can help with a project? Ask the bot.</p><div class="suggestions"><button data-question="What can you build?">What can you build?</button><button data-question="What technologies do you use?">Your tech stack?</button><button data-question="Are you available for freelance?">Freelance?</button></div></div><div class="chat-card"><div class="chat-head"><span class="bot-avatar">✦</span><div><strong>Omar AI</strong><small><span class="pulse-dot"></span> Online</small></div></div><div id="chat-messages" class="chat-messages"><div class="message bot">Hi 👋 I'm Omar's AI assistant. Ask me anything about his work.</div></div><form id="chat-form" class="chat-form"><input id="chat-input" autocomplete="off" placeholder="Ask something..." /><button aria-label="Send">↑</button></form></div></div></div></section>
-
-    <section id="experience" class="section alt"><div class="container"><p class="eyebrow">EXPERIENCE</p><h2>Where I've worked.</h2><div id="experience-list"></div></div></section>
-    <section class="section"><div class="container"><p class="eyebrow">TECHNOLOGY</p><h2>Tools I use.</h2><div id="skills-list" class="skills"></div></div></section>
-
-    <section id="contact" class="section contact"><div class="container contact-box"><div><p class="eyebrow">HAVE A PROJECT?</p><h2>Let's make it real.</h2><p>Tell me what you want to build, what problem you want to solve and your timeline. I'm open to freelance projects and collaborations.</p></div><div class="contact-actions"><a class="btn primary magnetic" href="mailto:omarrafee0@gmail.com?subject=Freelance%20Project%20Inquiry">Email me</a><a class="btn secondary" href="https://www.linkedin.com/in/omar-rafee/" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
+    <section class="section contact" id="contact"><div class="container"><div class="section-header center"><span class="section-tag">06 — Contact</span><h2 class="section-title">Let's Build Something</h2><p class="section-desc">Have a website, app, automation idea or custom software project? Contact me for freelance work and collaborations.</p></div><div class="contact-grid reveal"><a href="#" class="contact-card" id="contact-email"><span class="contact-icon">✉</span><span class="contact-label">Email</span><span class="contact-value"></span></a><a href="#" class="contact-card" id="contact-phone"><span class="contact-icon">📱</span><span class="contact-label">Phone</span><span class="contact-value"></span></a><a href="#" class="contact-card" id="contact-linkedin" target="_blank" rel="noopener"><span class="contact-icon">🔗</span><span class="contact-label">LinkedIn</span><span class="contact-value">Connect with me</span></a></div><div class="freelance-cta reveal"><strong>Need something built?</strong><span>Send me your idea, requirements and timeline.</span><a href="mailto:omarrafee@gmail.com?subject=Freelance%20Project%20Inquiry" class="btn btn-primary">Contact Me for Freelance</a></div><div class="ai-cta reveal"><p>Curious about my background? Ask my AI assistant anything.</p><button class="btn btn-primary" id="open-ai-2">Talk to AI Assistant</button></div></div></section>
   </main>
-  <footer><div class="container"><span>© 2026 Omar Ahmed Rafee</span><span>Built with HTML · CSS · JavaScript · GSAP</span></div></footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="js/data.js"></script><script src="js/main.js"></script>
-</body>
-</html>
+  <footer class="footer"><div class="container"><p>© 2026 Omar Ahmed Rafee · Built with GSAP & AI · Freelance projects welcome</p></div></footer>
+
+  <div class="ai-panel" id="ai-panel" aria-hidden="true"><div class="ai-panel-header"><div class="ai-panel-title"><span class="ai-avatar">AI</span><div><strong>Portfolio Assistant</strong><small>Powered by your CV data</small></div></div><button class="ai-close" id="close-ai" aria-label="Close chat">×</button></div><div class="ai-messages" id="ai-messages"></div><div class="ai-suggestions" id="ai-suggestions"></div><form class="ai-input-form" id="ai-form"><input type="text" id="ai-input" placeholder="Ask about skills, experience, projects..." autocomplete="off" /><button type="submit" aria-label="Send message">➤</button></form><div class="ai-settings"><details><summary>Optional: Connect OpenAI API</summary><input type="password" id="openai-key" placeholder="sk-..." /><small>Key stays in your browser only (localStorage)</small></details></div></div><div class="ai-overlay" id="ai-overlay"></div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script><script src="js/data.js"></script><script src="js/ai-assistant.js"></script><script src="js/main.js"></script>
+</body></html>
